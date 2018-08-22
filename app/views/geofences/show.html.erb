@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @geofence.name %>
+</p>
+
+<p>
+  <strong>Lat:</strong>
+  <%= @geofence.lat %>
+</p>
+
+<p>
+  <strong>Lon:</strong>
+  <%= @geofence.lon %>
+</p>
+
+<p>
+  <strong>Radius:</strong>
+  <%= @geofence.radius %>
+</p>
+
+<%= link_to 'Edit', edit_geofence_path(@geofence) %> |
+<%= link_to 'Back', geofences_path %>
